@@ -3,7 +3,7 @@ import cv2
 import imutils
 import time
 import os, glob
-
+ 
 target_class = [] #["head", "fbody", "vbody", #"mask"]   #[] --> all
 annotations_path = "./annotation_train.odgt"
 crowdHuman_path = "./crowd_human/all"

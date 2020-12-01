@@ -3,7 +3,7 @@ import cv2
 import imutils
 import time
 import os, glob
-
+ 
 target_class = ['vbody'] #["head", "fbody", "vbody", #"mask"]   #[] --> all  ###you should pick one class only in yolo
 annotations_path = "./annotation_train.odgt"
 crowdHuman_path = "./crowd_human/all"
